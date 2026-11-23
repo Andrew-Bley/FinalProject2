@@ -11,10 +11,9 @@ from flask import Flask, render_template_string, request, jsonify
 
 # ---------- 1. Settings ----------
 load_dotenv()                                              # reads .env from this folder, if it exists
-key = os.environ.get("9f6eb2dd0d3c4b5b9599c5c59ef9c429", "9f6eb2dd0d3c4b5b9599c5c59ef9c429")                    # new: the key lives in .env, not in this file
+key = os.environ.get("BEARCAT_KEY", "")                    # new: the key lives in .env, not in this file
 
 url = "https://apim-azr-ue2-bgpt-prd-ucin.azure-api.net/openai/deployments/gpt-5.4-ptu/chat/completions?api-version=2024-10-21"
-BEARCAT_KEY= "9f6eb2dd0d3c4b5b9599c5c59ef9c429"
 NO_ANSWER = "The file does not answer this question."
 instructions = (
     "Answer the question in plain sentences, using the files below. You may summarize, explain, and combine parts of them.\n"
