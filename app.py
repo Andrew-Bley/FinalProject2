@@ -171,16 +171,15 @@ LANDING_PAGE = """<!doctype html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chat With Your File</title>
+    <title>Quick Flights</title>
     <style>""" + STYLE + """</style>
   </head>
   <body>
     <nav class="nav"><a href="/">Home</a><a href="/start">Ask a question</a></nav>
     <header class="header">
-      <h1>Chat With Your File</h1>
-      <p>Ask a question about your own files and get an answer in plain sentences.</p>
+      <h1>Upload Your Flight Information</h1>
+      <p>Ask a question about your flight and get an answer in plain sentences.</p>
     </header>
-    <img class="hero" src="/hero.png" alt="A stack of pages and a question bubble">
     <div class="card">
       <h2>Who it is for</h2>
       <p>Anyone with a long document and a short question.</p>
