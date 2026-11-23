@@ -192,7 +192,7 @@ LANDING_PAGE = """<!doctype html>
       </div>
       <a class="button" href="/start">Start</a>
     </div>
-    <p class="note">Use fictional or public files only.</p>
+    <p class="note">Do not upload personally Identifiable Information. All information should be uploaded via a document. DO NOT upload any boarding passes.</p>
   </body>
 </html>"""
 
