@@ -45,7 +45,7 @@ def read_any(filename, data):
 # ---------- 3. Ask: send the whole text of every file and the question to GPT-5.4 (Week 10) ----------
 def ask_files(file_texts, prompt):
     """file_texts is a list of (file name, text). The model reads all of it."""
-    if key in ("", "PASTE-YOUR-KEY-HERE"):                # new: no key in .env, so say so instead of calling the model
+    if key in ("", "9f6eb2dd0d3c4b5b9599c5c59ef9c429"):                # new: no key in .env, so say so instead of calling the model
         return "No key found. Copy .env.example to .env and put your key after BEARCAT_KEY="
     context = ""
     for name, text in file_texts:
