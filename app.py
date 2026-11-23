@@ -182,7 +182,7 @@ LANDING_PAGE = """<!doctype html>
     </header>
     <div class="card">
       <h2>Who it is for</h2>
-      <p>Anyone with a long document and a short question.</p>
+      <p>Anyone with an upcoming flight they have questions for</p>
       <h2>How it works</h2>
       <div class="steps">
         <div class="step"><strong>1. Upload</strong><br>One or more files: PDF, Word, or text.</div>
